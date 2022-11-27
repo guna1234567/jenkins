@@ -2,21 +2,21 @@ pipeline {
     agent any
 
     stages {
-        stage('build process') {
+        stage('build') {
             steps {
                 echo 'build successfully completed'
             }
         }
-        stage('test process') {
+        stage('Test') {
             steps {
                 echo 'test successfully completed'
             }
         }
-        stage('release process') {
+        stage('release') {
             steps {
                 echo 'release successfully completed'
             }
-        }    
+        }
     }
 }
 
